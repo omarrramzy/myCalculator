@@ -1,0 +1,86 @@
+.calculator{
+    background-color: #330066;
+    height: 480px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.output{
+    width: 300px;
+    height: 100px;
+    margin-bottom: 25px;
+    background-color: #330066;
+    color: #66cc99;
+    text-align: center;
+}
+
+
+.calculator .output input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: #339999;
+    color: #FFFFCC;
+    text-align: center;
+}
+
+.calculator .output input:hover{
+    background-color: #FFFFCC;
+    color: #330066;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #339999;
+    color: #FFFFCC;
+    border: none;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #FFFFCC;
+    color: #330066;
+}
+
+.ac-button,
+.c-button,
+.doublez-button{
+    background-color: #FFFFCC;
+    color: #330066;
+}
+
+.btn-z{
+    width: 120px;
+    padding-right: 70px;
+}
+
+.btn-div,
+.btn-mul,
+.btn-sub,
+.btn-sum,
+.eq-button{
+    background-color: #FF0066;
+}
